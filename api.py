@@ -13,7 +13,7 @@ def get_price(symbol):
 
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': '7d5862d0-ae56-4616-8670-a0c5143f2cd0'
+        'X-CMC_PRO_API_KEY': '<<Your api here>>'
     }
 
     response = requests.get(url, params=parameters, headers=headers)
